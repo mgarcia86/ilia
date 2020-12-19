@@ -1,0 +1,5 @@
+default: -p html_report -p homolog
+
+homolog: AMBIENTE=homolog
+
+html_report: --format pretty -f html -o log/features_report.html
